@@ -14,19 +14,11 @@
 			remoteGlobalIDString = 89B488CE2E395B5100943430;
 			remoteInfo = NotesApp;
 		};
-		89B488F02E395B5200943430 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 89B488C72E395B5100943430 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 89B488CE2E395B5100943430;
-			remoteInfo = NotesApp;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		89B488CF2E395B5100943430 /* NotesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B488E52E395B5200943430 /* NotesAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotesAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		89B488EF2E395B5200943430 /* NotesAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotesAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -53,11 +45,6 @@
 			path = NotesAppTests;
 			sourceTree = "<group>";
 		};
-		89B488F22E395B5200943430 /* NotesAppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NotesAppUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,13 +62,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		89B488EC2E395B5200943430 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -90,7 +70,6 @@
 			children = (
 				89B488D12E395B5100943430 /* NotesApp */,
 				89B488E82E395B5200943430 /* NotesAppTests */,
-				89B488F22E395B5200943430 /* NotesAppUITests */,
 				89B488D02E395B5100943430 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,7 +79,6 @@
 			children = (
 				89B488CF2E395B5100943430 /* NotesApp.app */,
 				89B488E52E395B5200943430 /* NotesAppTests.xctest */,
-				89B488EF2E395B5200943430 /* NotesAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,29 +131,6 @@
 			productReference = 89B488E52E395B5200943430 /* NotesAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		89B488EE2E395B5200943430 /* NotesAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 89B489002E395B5200943430 /* Build configuration list for PBXNativeTarget "NotesAppUITests" */;
-			buildPhases = (
-				89B488EB2E395B5200943430 /* Sources */,
-				89B488EC2E395B5200943430 /* Frameworks */,
-				89B488ED2E395B5200943430 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				89B488F12E395B5200943430 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				89B488F22E395B5200943430 /* NotesAppUITests */,
-			);
-			name = NotesAppUITests;
-			packageProductDependencies = (
-			);
-			productName = NotesAppUITests;
-			productReference = 89B488EF2E395B5200943430 /* NotesAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -190,10 +145,6 @@
 						CreatedOnToolsVersion = 16.3;
 					};
 					89B488E42E395B5200943430 = {
-						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 89B488CE2E395B5100943430;
-					};
-					89B488EE2E395B5200943430 = {
 						CreatedOnToolsVersion = 16.3;
 						TestTargetID = 89B488CE2E395B5100943430;
 					};
@@ -215,7 +166,6 @@
 			targets = (
 				89B488CE2E395B5100943430 /* NotesApp */,
 				89B488E42E395B5200943430 /* NotesAppTests */,
-				89B488EE2E395B5200943430 /* NotesAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,13 +179,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		89B488E32E395B5200943430 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		89B488ED2E395B5200943430 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -259,13 +202,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		89B488EB2E395B5200943430 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -273,11 +209,6 @@
 			isa = PBXTargetDependency;
 			target = 89B488CE2E395B5100943430 /* NotesApp */;
 			targetProxy = 89B488E62E395B5200943430 /* PBXContainerItemProxy */;
-		};
-		89B488F12E395B5200943430 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 89B488CE2E395B5100943430 /* NotesApp */;
-			targetProxy = 89B488F02E395B5200943430 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -294,7 +225,6 @@
 				INFOPLIST_FILE = NotesApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +252,6 @@
 				INFOPLIST_FILE = NotesApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -497,40 +426,6 @@
 			};
 			name = Release;
 		};
-		89B489012E395B5200943430 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 29P9H3JGRP;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.me.NotesAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NotesApp;
-			};
-			name = Debug;
-		};
-		89B489022E395B5200943430 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 29P9H3JGRP;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.me.NotesAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NotesApp;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -557,15 +452,6 @@
 			buildConfigurations = (
 				89B488FE2E395B5200943430 /* Debug */,
 				89B488FF2E395B5200943430 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		89B489002E395B5200943430 /* Build configuration list for PBXNativeTarget "NotesAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				89B489012E395B5200943430 /* Debug */,
-				89B489022E395B5200943430 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
